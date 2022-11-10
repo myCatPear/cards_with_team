@@ -1,0 +1,74 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.headerButtons {
+    margin: 0 10px;
+}
+
+.controlPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardsAmountSliderContainer {
+    display: flex;
+}
+
+.cardsAmountSlider {
+    width: 300px;
+}
+
+.cardsAmountSliderMinValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+}
+
+.cardsAmountSliderMaxValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+}
+
+.search {
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+}
+
+.searchField {
+    width: 200px;
+    border: 0;
+    background: transparent;
+}
+
+.searchField:focus{
+    outline: none;
+}
